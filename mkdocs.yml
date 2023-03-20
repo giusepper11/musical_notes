@@ -1,0 +1,15 @@
+site_name: Musical notes
+repo_url: https://github.com/giusepper11/musical_notes
+repo_name: giusepper11/musical-notes
+edit_uri: tree/main/docs
+
+theme:
+  name: material
+  logo: assets/logo.png
+  favicon: assets/logo.png
+
+markdown_extensions: 
+  - attr_list
+
+extra_css:
+  - stylesheets/extra.css
