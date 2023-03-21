@@ -1,6 +1,3 @@
-from typing import Literal
-
-
 NOTES = ["C", "C#", "D", "D#", "E", "F", "F#", "G", "G#", "A", "A#", "B"]
 SCALES = {"major": (0, 2, 4, 5, 7, 9, 11)}
 
