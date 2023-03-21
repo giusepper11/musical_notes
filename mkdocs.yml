@@ -8,8 +8,15 @@ theme:
   logo: assets/logo.png
   favicon: assets/logo.png
 
-markdown_extensions: 
+markdown_extensions:
   - attr_list
 
 extra_css:
   - stylesheets/extra.css
+
+plugins:
+  - search
+  - mkdocstrings:
+      handlers:
+        python:
+          paths: [musical_notes]

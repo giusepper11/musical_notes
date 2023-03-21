@@ -8,6 +8,7 @@ packages = [{include = "musical_notes"}]
 
 [tool.poetry.dependencies]
 python = "^3.11"
+roman = "^4.0"
 
 
 [tool.poetry.group.dev.dependencies]

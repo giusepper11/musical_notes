@@ -991,6 +991,18 @@ socks = ["PySocks (>=1.5.6,!=1.5.7)"]
 use-chardet-on-py3 = ["chardet (>=3.0.2,<6)"]
 
 [[package]]
+name = "roman"
+version = "4.0"
+description = "Integer to Roman numerals converter"
+category = "main"
+optional = false
+python-versions = ">=3.7"
+files = [
+    {file = "roman-4.0-py3-none-any.whl", hash = "sha256:8b8eefb6dedfdfebd789547e49a1274c12aae5a32b43911994f22e276a7b8c8b"},
+    {file = "roman-4.0.tar.gz", hash = "sha256:6caab7ba51b83c46b5bf8839e5d782769a6b08fdea8abdfa62a4197c041fd513"},
+]
+
+[[package]]
 name = "six"
 version = "1.16.0"
 description = "Python 2 and 3 compatibility utilities"
@@ -1093,4 +1105,4 @@ watchmedo = ["PyYAML (>=3.10)"]
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.11"
-content-hash = "de4aab34b3159dee2dec21bb53b11eae95c11952eeb0fee3af3e1a8e5e45d6f9"
+content-hash = "1495fbea13c50f451c9c8766fceea123905e6b30f99e7d73f26434d498518c95"
